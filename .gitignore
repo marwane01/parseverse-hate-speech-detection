@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & models (large)
+data/*
+!data/README.md
+models/*
+!models/README.md
+
+# OS
+.DS_Store
+
+# Reports/Artifacts
+reports/*
+!reports/README.md
